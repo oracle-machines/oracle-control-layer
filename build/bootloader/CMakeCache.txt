@@ -245,7 +245,7 @@ IDF_TOOLCHAIN:STRING=gcc
 PROJECT_SOURCE_DIR:UNINITIALIZED=/code
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/root/.espressif/python_env/idf5.1_py3.10_env/bin/python
+PYTHON:UNINITIALIZED=python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1

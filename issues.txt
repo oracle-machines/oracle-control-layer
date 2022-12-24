@@ -1,0 +1,3 @@
+Issues
+
+idf.py menuconfig only starts to work if an external terminal is connected to the and then it is run. It will not frun from inside vscode the first time.
