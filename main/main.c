@@ -82,7 +82,7 @@ void app_main()
     // Initialize the pwm comparator
     ESP_LOGI(TAG, "INITIALIZING PWM COMPARATOR");
     mcpwm_cmpr_handle_t comparator_handle;
-    esp_err_t comparator_error_status = mcpwm_new_comparator(&operator_handle, &comparator_config, &comparator_handle);
+    esp_err_t comparator_error_status = mcpwm_new_comparator(operator_handle, &comparator_config, &comparator_handle);
     if (comparator_error_status != ESP_OK) {
         ESP_LOGE(TAG, "Error initializing comparator: %d", comparator_error_status);
         return;
