@@ -6,6 +6,8 @@
     ],
     "files.associations": {
         "mcpwm_prelude.h": "c",
-        "mcpwm.h": "c"
+        "mcpwm.h": "c",
+        "mcpwm_timer.h": "c",
+        "mcpwm_types.h": "c"
     }
 }
